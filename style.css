@@ -1,0 +1,12 @@
+:root {
+	--transition: all 0.2s ease-in-out;
+	--light: #ccc;
+	--dark: #333;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
