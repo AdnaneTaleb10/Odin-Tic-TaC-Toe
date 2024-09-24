@@ -11,7 +11,25 @@
 </head>
 <body>
 
-    <p>hello world</p>
+    <dialog open id="playerDialog">
+        <form method="dialog">
+            <h3>Player Names</h3>
+
+            <div class="form-control">
+                <label for="player-one">Player One Name:</label>
+                <input type="text" id="player-one" name="player-one" placeholder="John" required minlength="3">
+            </div>
+            
+            <div class="form-control">
+                <label for="player-two">Player Two Name:</label>
+                <input type="text" id="player-two" name="player-two" placeholder="Daniel" required minlength="3">
+            </div>
+
+            <button type="submit">Start Game</button>
+        </form>
+    </dialog>
+
+    
 
     <script src="index.js"></script>
 </body>
